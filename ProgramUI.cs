@@ -167,7 +167,7 @@ namespace DevTeamsConsole
 
                 int devIdInt = Convert.ToInt32(devIdStr);
 
-                Console.WriteLine("\nEnter (Yes/No) if the Developer *Posseses a Pluralsight License.");
+                Console.WriteLine("\nEnter (Yes/No) if the Developer possesses a Pluralsight License.");
                 string devLicense = Console.ReadLine().ToLower();
 
                 if (devLicense == "yes")
